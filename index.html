@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Block Blast HD - 60FPS Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="audio-prompt" class="audio-prompt">
+            <button id="start-audio-btn">Mulai Game & Musik</button>
+        </div>
+
+        <div class="header">
+            <div class="title-container">
+                <h1>BLOCK</h1>
+                <h1 class="accent-text">BLAST HD</h1>
+            </div>
+            <div class="score-container">
+                <div class="score-board">Skor: <span id="score">0</span></div>
+                <div class="score-board high-score-board">Tertinggi: <span id="high-score">0</span></div>
+            </div>
+        </div>
+
+        <div id="grid" class="grid"></div>
+
+        <div id="block-options" class="options-container"></div>
+
+        <button id="restart-btn" class="hidden">Main Lagi</button>
+    </div>
+
+    <div id="drag-overlay" class="drag-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
